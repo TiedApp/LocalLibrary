@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <!--<Nullable>enable</Nullable>-->
+    <ImplicitUsings>enable</ImplicitUsings>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
+	<SignAssembly>True</SignAssembly>
+	<AssemblyOriginatorKeyFile>tffauth.snk</AssemblyOriginatorKeyFile>
+	<Copyright>Flaubert TAGU FONKU</Copyright>
+	<Description>This project is designed for companies which would like to use TiedApp and save store data inside their own server. 
+Please follow the setup and customization steps by order to avoid bad configuration.</Description>
+	<RepositoryUrl></RepositoryUrl>
+	<Authors>Flaubert TAGU FONKU</Authors>
+	<Company>FLK TECH</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Update="wwwroot\favicon.ico">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\images\logo\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Markdig.Signed" Version="0.34.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GlobalShared\GlobalShared.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,90 @@
+html {
+    font-size: 14px;
+    background-color: #FFF9F8;
+    color: #332322;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #FFF9F8;
+    color: #332322;
+}
+
+.backcolor-navbar {
+    background-color: #E8DEDD;
+}
+
+.backcolor-dark {
+    background-color: #160D0C;
+    color: #FFF9F8;
+}
+
+.backcolor-seconddark {
+    background-color: #332322;
+    color: #FFF9F8;
+}
+
+.backcolor-light {
+    background-color: #FFF9F8;
+    color: #AA4955;
+}
+
+.backcolor-secondlight {
+    background-color: #CEB8B6;
+    color: #AA4955;
+}
+
+.bottom-line {
+    border-bottom: 1px solid #A08684;
+}
+
+.navbar-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #332322;
+    text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+a {
+    color: #B45441;
+}
+
+p {
+    color: #160D0C;
+}
+
+.text-orange {
+    color: #B45441;
+}
+
+.text-dark-color {
+    color: #160D0C;
+}
+
+.text-red-color {
+    color: #931B1E;
+}
+
+.button-dark {
+    color: #fff;
+    background-color: #4B3835;
+    border-color: #4B3835;
+}
+
+    .button-dark:hover {
+        color: #fff;
+        background-color: #332322;
+        border-color: #b02a37;
+    }

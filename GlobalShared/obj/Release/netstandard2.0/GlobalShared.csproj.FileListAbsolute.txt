@@ -1,0 +1,17 @@
+G:\Repo\FLK Tech\FlkSolutions\Solutions\GlobalShared\bin\Release\netstandard2.0\GlobalShared.deps.json
+G:\Repo\FLK Tech\FlkSolutions\Solutions\GlobalShared\bin\Release\netstandard2.0\GlobalShared.dll
+G:\Repo\FLK Tech\FlkSolutions\Solutions\GlobalShared\bin\Release\netstandard2.0\GlobalShared.pdb
+G:\Repo\FLK Tech\FlkSolutions\Solutions\GlobalShared\bin\Release\netstandard2.0\System.ComponentModel.DataAnnotations.dll
+G:\Repo\FLK Tech\FlkSolutions\Solutions\GlobalShared\bin\Release\netstandard2.0\System.Configuration.dll
+G:\Repo\FLK Tech\FlkSolutions\Solutions\GlobalShared\bin\Release\netstandard2.0\System.Security.dll
+G:\Repo\FLK Tech\FlkSolutions\Solutions\GlobalShared\bin\Release\netstandard2.0\System.ComponentModel.DataAnnotations.xml
+G:\Repo\FLK Tech\FlkSolutions\Solutions\GlobalShared\bin\Release\netstandard2.0\System.Configuration.xml
+G:\Repo\FLK Tech\FlkSolutions\Solutions\GlobalShared\bin\Release\netstandard2.0\System.Security.xml
+G:\Repo\FLK Tech\FlkSolutions\Solutions\GlobalShared\obj\Release\netstandard2.0\GlobalShared.csproj.AssemblyReference.cache
+G:\Repo\FLK Tech\FlkSolutions\Solutions\GlobalShared\obj\Release\netstandard2.0\GlobalShared.GeneratedMSBuildEditorConfig.editorconfig
+G:\Repo\FLK Tech\FlkSolutions\Solutions\GlobalShared\obj\Release\netstandard2.0\GlobalShared.AssemblyInfoInputs.cache
+G:\Repo\FLK Tech\FlkSolutions\Solutions\GlobalShared\obj\Release\netstandard2.0\GlobalShared.AssemblyInfo.cs
+G:\Repo\FLK Tech\FlkSolutions\Solutions\GlobalShared\obj\Release\netstandard2.0\GlobalShared.csproj.CoreCompileInputs.cache
+G:\Repo\FLK Tech\FlkSolutions\Solutions\GlobalShared\obj\Release\netstandard2.0\GlobalShared.csproj.CopyComplete
+G:\Repo\FLK Tech\FlkSolutions\Solutions\GlobalShared\obj\Release\netstandard2.0\GlobalShared.dll
+G:\Repo\FLK Tech\FlkSolutions\Solutions\GlobalShared\obj\Release\netstandard2.0\GlobalShared.pdb

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "sfxxCKln2hpfU6lrZrFLDQrrN+oY7wGIhC4XOttLqpJLjnztHcHHiYypqGUaUBgJlY4g8Yy7MMCZS+oZy3Rr5g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Flaubert TAGU\\source\\repos\\LocalLibrary\\TiedAppAPI\\TiedAppLocal\\TiedAppLocal.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Flaubert TAGU\\.nuget\\packages\\markdig.signed\\0.34.0\\markdig.signed.0.34.0.nupkg.sha512",
+    "C:\\Users\\Flaubert TAGU\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

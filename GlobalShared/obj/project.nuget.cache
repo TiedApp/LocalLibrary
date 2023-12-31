@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "CIAanc0IgVEs6a+3ptYfuw/PciK08Ngq9MC4LVHcf/Z8El4tT1UB6m3S2hPBgoA6jk7cnViEvBiPa48GGS3kuA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Flaubert TAGU\\source\\repos\\LocalLibrary\\TiedAppAPI\\GlobalShared\\GlobalShared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Flaubert TAGU\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Flaubert TAGU\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

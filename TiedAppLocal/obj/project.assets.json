@@ -1,0 +1,192 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Markdig.Signed/0.34.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Markdig.Signed.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Markdig.Signed.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "GlobalShared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/GlobalShared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GlobalShared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Markdig.Signed/0.34.0": {
+      "sha512": "3G/6tP/koKeMv7QzusXMBG3iHi4IOjf3RmMBoA3bKmNjtM5HIMOuxiiUBBwfU8Sjx8ztcqsC1BIP2hpJjI7EoQ==",
+      "type": "package",
+      "path": "markdig.signed/0.34.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net462/Markdig.Signed.dll",
+        "lib/net462/Markdig.Signed.xml",
+        "lib/net6.0/Markdig.Signed.dll",
+        "lib/net6.0/Markdig.Signed.xml",
+        "lib/net8.0/Markdig.Signed.dll",
+        "lib/net8.0/Markdig.Signed.xml",
+        "lib/netstandard2.0/Markdig.Signed.dll",
+        "lib/netstandard2.0/Markdig.Signed.xml",
+        "lib/netstandard2.1/Markdig.Signed.dll",
+        "lib/netstandard2.1/Markdig.Signed.xml",
+        "markdig.png",
+        "markdig.signed.0.34.0.nupkg.sha512",
+        "markdig.signed.nuspec",
+        "readme.md"
+      ]
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "GlobalShared/1.0.0": {
+      "type": "project",
+      "path": "../GlobalShared/GlobalShared.csproj",
+      "msbuildProject": "../GlobalShared/GlobalShared.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "GlobalShared >= 1.0.0",
+      "Markdig.Signed >= 0.34.0",
+      "Newtonsoft.Json >= 13.0.3"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Flaubert TAGU\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Flaubert TAGU\\source\\repos\\LocalLibrary\\TiedAppAPI\\TiedAppLocal\\TiedAppLocal.csproj",
+      "projectName": "TiedAppLocal",
+      "projectPath": "C:\\Users\\Flaubert TAGU\\source\\repos\\LocalLibrary\\TiedAppAPI\\TiedAppLocal\\TiedAppLocal.csproj",
+      "packagesPath": "C:\\Users\\Flaubert TAGU\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Flaubert TAGU\\source\\repos\\LocalLibrary\\TiedAppAPI\\TiedAppLocal\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Flaubert TAGU\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "G:\\Babel\\babel 9.9.5\\Company Packages": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\Flaubert TAGU\\source\\repos\\LocalLibrary\\TiedAppAPI\\GlobalShared\\GlobalShared.csproj": {
+              "projectPath": "C:\\Users\\Flaubert TAGU\\source\\repos\\LocalLibrary\\TiedAppAPI\\GlobalShared\\GlobalShared.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Markdig.Signed": {
+            "target": "Package",
+            "version": "[0.34.0, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.3, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
