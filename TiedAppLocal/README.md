@@ -18,9 +18,9 @@ For example: any modification of [httppost] to [httpget] will make the use of th
 ## Step 1. Set your preferred configuration
 1. In 'Program.cs' you will find under 'Special Dir' three type of directory settings. Those directories can be modify.
 2. To modify the directories, it recommended  to update the names inside the sub project 'GlobalShared' and the static class 'LibVariables'.
-3. It is possible to create new controllers and or change the name of the functionnalities inside the controller.
-4. For example: you can create a controller 'PostFilesController' and copy in this controller all related codes for 'SaveFile' functions inside.
-5. You can modify the name of controller or the name of the route. Do not under any circumstances modify the type of operation [Http...]
+3. It is possible to create new controllers and or change the name of the action inside the controller.
+4. For example: you can create a controller 'PostFilesController' and copy in this controller all related codes for 'SaveFile' action inside.
+5. You can modify the name of controller or the name of the action. Do not under any circumstances modify the type of operation [Http...]
 
 ## Step 2. Deploy your API
 Once all the setup of your API is done, you can deploy it on your own server.
@@ -30,15 +30,15 @@ Once your API is deployed, please make sure to setup read and write permissions 
 Only the direction and the IT department can setup the API in TiedApp.
 To setup your API for all employees, the following informations will be needed in TiedApp:
 1. The url to access your API deployed,
-2. The controller name and the name of the function to post a file,
-3. The controller name and the name of the function to delete a file posted using a task management procedure which was rejected,
-4. The controller name and the name of the function to retrieve a file posted.
+2. The controller name and action to post a file,
+3. The controller name and action to delete a file posted using a task management procedure which was rejected,
+4. The controller name and action to retrieve a file posted.
 
 -- Important note --
-In TiedApp, once the API is activated, any proceed related to a file to post will forcibly use the deployed API's features.
+In TiedApp, once the API is activated, any process related to a file to post will forcibly use the deployed API's features.
 In case you want to do maintenance on your server, you can 'deactivated' the use of your API in TiedApp.
 When your API is activated, all files posted by any employee will automatically be posted to your server.
-for more informations please follow the update details of TiedApp [@here](https://tiedapp.com/TiedAppversions)
+for more informations please follow the update details of TiedApp [@here](https://tiedapp.com/TiedAppUpdateDetail/1012)
 
 ## API's processes security
 To ensure the security of your API, we created a token validation process.
