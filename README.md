@@ -15,6 +15,10 @@ The css path is "TiedAppLocal\wwwroot\css\site.css".
 Please do not modify the code inside the provided API unless it is mention that it can be modified.
 For example: any modification of [httppost] to [httpget] will make the use of the tiedapp solution impossible with your deployed API.
 
+## Tutorial
+To install and use your API easily, please follow the instructions in the tutorial video provided as well as the instructions below.
+[Tutorial](https://tiedapp.com/TiedAppUpdateDetail/1012)
+
 ## Step 1. Set your preferred configuration
 1. In 'Program.cs' you will find under 'Special Dir' three type of directory settings. Those directories can be modify.
 2. To modify the directories, it recommended  to update the names inside the sub project 'GlobalShared' and the static class 'LibVariables'.
